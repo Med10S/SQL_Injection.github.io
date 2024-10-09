@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
 });
 
 // Endpoint de connexion (vulnérable à l'injection SQL)
-app.post('/login', (req, res) => {
+app.post('/SQL_Injection.github.io/login', (req, res) => {
     const { username, password } = req.body;
 
     // Requête SQL vulnérable
